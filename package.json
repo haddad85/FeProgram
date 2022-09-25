@@ -1,0 +1,24 @@
+{
+  "name": "feprogram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "homeHtml": "index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 7200"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haddad85/FeProgram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haddad85/FeProgram/issues"
+  },
+  "homepage": "https://github.com/haddad85/FeProgram#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}
