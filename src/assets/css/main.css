@@ -1,3 +1,6 @@
+body, html{
+    height:100%;
+  }
 .topSection{
     background: linear-gradient(359.45deg, #4A99D3 -24.57%, rgba(74, 153, 211, 0) 76.31%), #FFFFFF;
     opacity: 0.2;
@@ -6,7 +9,7 @@
     height: 550px;
 }
 .nav-container{
-    padding-top: 15px;
+    padding: 15px 50px 0px 50px;
 }
 .main-form{
 padding: 60px;
@@ -25,4 +28,13 @@ border-radius: 10px;
 }
 .main-form-controls{
     padding-top: 10px;
+}
+.footerSection{
+    background: #4A99D3;
+    height: 350px;    
+    padding: 50px 100px 0px 100px;
+    color: #FFFFFF;
+}
+.footerSection-Headings{
+    text-decoration: underline;
 }
